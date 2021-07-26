@@ -1,0 +1,22 @@
+body {
+    background: #def0fc
+}
+
+#parentdiv {
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+.names {
+    padding: 5px 10px 5px 10px;
+    text-align: left
+}
+
+.names:hover {
+    background: gray
+}
